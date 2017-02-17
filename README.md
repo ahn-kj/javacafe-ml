@@ -1,3 +1,12 @@
-# My Awesome Book
+# 자바카페와 함께하는 머신 러닝 
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+자바카페 에서 스터디한 내용을 정리한 내용입니다.  
+
+## 머신 러닝이란?
+
+> TODO: 작년 공부내용 정리 
+
+## 강화학습
+
+지금 공부 하는 내용 정리
+
