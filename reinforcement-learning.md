@@ -56,9 +56,13 @@
 
 * 현재 상태에서 가장 보상이 높은 액션을 알려주는 기능 -> argmaxQ(상태, 액션[])
 
+즉 Q 란 존재는 상태와 상태에서 액션을 취했때의 보상 기대값을 저장하고 있는 존재입니다. 그림으로 보면 다음과 같습니다.
 
+<img src="http://postfiles15.naver.net/MjAxNzAyMTdfMTY4/MDAxNDg3MzE5MDkzNTg1.ZlG7qdOAM3U3njCjZIpEm0Si7hTFzR0Wkk3TGRoYGtQg.SkvMMDHur3Yp4uN6Dm0kyKMI_ba6rTcllpjJtaCzjykg.PNG.akj61300/q.png?type=w2" width="600px"/>  
 
+위 그림은 Frozen Lake 게임에서 Q 테이블을 그려 본 것입니다. 각 상태마다 4가지 액션이 있을 수 있고 해당 액션에 대한 기대 보상을 저장합니다.
 
+여기서 문제가 하나 있습니다. 
 
 > TODO: 강화학습을 실제로 구현하기 위해 Q 러닝을 어떻게 이용하는지 설명 
 
