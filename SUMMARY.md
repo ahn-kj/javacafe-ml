@@ -4,8 +4,8 @@
 * [강화학습이란?](Reinforcement-Concept.md)
 * [실습환경 구성](Dev-Environment.md)
 * [Open AI Gym 소개](open-ai-gym.md)
-* Open AI Gym 을 이용한 간단한 게임 실습
-* Q 러닝 기법
-* Q 알고리즘 실습
+* [Open AI Gym 을 이용한 간단한 게임 실습](open-ai-gym-ex.md)
+* [Q 러닝 기법](q-learning.md)
+* [Q 알고리즘 실습](q-ex.md)
 * [Reinforcement Learning](reinforcement-learning.md)
 
