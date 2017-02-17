@@ -51,7 +51,7 @@ C:> conda create -n tensorflow python=3.5
 
 TensorFlow는 Windows용 Python 3.5.x 만 지원합니다. 
 
-Anaconda는 Python 3.6이 기본 설정이므로 명령어에 python=3.5를 추가해야 합니다.
+우리가 설치한 Anaconda는 Python 3.6이 기본 설정이므로 명령어에 python=3.5를 추가해야 합니다.
 
 3.conda env 활성화
 
