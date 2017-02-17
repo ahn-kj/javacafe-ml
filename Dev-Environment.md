@@ -29,19 +29,19 @@ Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있�
 	
 https://www.continuum.io/downloads
 
-<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMTQz/MDAxNDg3MzIzMTYxNTUx.BFpwB8-3ecPVhGYMcHgFiswqkQuo5so05M8Sx1ikVpYg.H-sJgm69wtkf5bzcVTdBzRpZzYDaiD4h_LoePE19_yQg.JPEG.kioku714/1.jpg?type=w2" width="400px" />
+<img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTUg/MDAxNDg3MzI0MDgzMjUw.D5qUa5cVzWXh681YIi4Ef23Iykj3n4nsKRJWpayMtJAg._-iputvfARxh64VALWa7dUww62m0ijp8JURJ-zZFl7Yg.PNG.kioku714/1.png?type=w2" width="450px" />
 
-<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMTM0/MDAxNDg3MzIzMTYxNzgz.T7iOl-uNYm4mKoVeM3_S7Clvj2RTPiB1AAcUN53RkyQg.L2yRfUOGYY0gCgEfX4yL2MRCVFx9gBfYdLkfXHKQ-Hkg.JPEG.kioku714/2.jpg?type=w2" width="400px" />
+<img src="http://postfiles10.naver.net/MjAxNzAyMTdfMTcz/MDAxNDg3MzI0MDgzNDcz.kR4EeyY7J1cWKPSSGg_mNgGvmZIbEArk4ihBpWYC6Qog.xFk40A99EYdcYEb23eVivl7apzRShhpV0tE36h3dle4g.PNG.kioku714/2.png?type=w2" width="450px" />
 
-<img src="http://postfiles2.naver.net/MjAxNzAyMTdfMSAg/MDAxNDg3MzIzMTYxOTkx.u-T_156H02ntYWTOl3vnMKpjieMr4DinkL44bWhsRqUg.egptCE_tOuw3XHUv6HGa515Tb462E9dVMImlyCGp68Ug.JPEG.kioku714/3.jpg?type=w2" width="400px" />
+<img src="http://postfiles7.naver.net/MjAxNzAyMTdfOTEg/MDAxNDg3MzI0MDgzODQx.kY5fBYLnL2FXOar5eRFKh-z0d8CaupSxkRkBLVPqv-Ug.Rv6fn099hL8fW0BHockSDMcyiLxoPm7ylGk_fI-G1Ngg.PNG.kioku714/4.png?type=w2" width="450px" />
 
-<img src="http://postfiles16.naver.net/MjAxNzAyMTdfMjM5/MDAxNDg3MzIzMTYyMTU5.VRcWBqph3Yf86OMVHqn7Q1WOCwW_OPbh4hBA-ghvhvUg.M6Lxx3YgtcL9EtS9zhqKkEGvFi9r-VVQNFXOkvadJdwg.JPEG.kioku714/4.jpg?type=w2" width="400px" />
+<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMzgg/MDAxNDg3MzI0MDgzNjYw.g5JcndRc04QI6TsqBZk-k6qEhPu9UsrUnYHRDMfG_K4g.5ANgBYo_S91tLbTRoR_TEHu0XWzzrpujmk7WgatGWfYg.PNG.kioku714/3.png?type=w2" width="450px" />
 
-<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMjcz/MDAxNDg3MzIzMTYyMzk1.ojotEt6M-bw6PoqVIrf-9KHV_wMNhUJUnsAc6UtHzb4g.ewgn9WA6tbu9Snf3JGBO-LF-OJZqthX0VYejr7JFTSAg.JPEG.kioku714/5.jpg?type=w2" width="400px" />
+<img src="http://postfiles2.naver.net/MjAxNzAyMTdfMTEw/MDAxNDg3MzI0MDg0OTE3.4AzGYv6A47yiHK3kPnvWYuLfC_f2LPEZ2IVcYcBKnM8g.eZ3V661lAOZqLdLV9OD5lih2OdPg68dyx4O3WIuW5mYg.PNG.kioku714/5.png?type=w2" width="450px" />
 
-<img src="http://postfiles15.naver.net/MjAxNzAyMTdfMTIx/MDAxNDg3MzIzMTYyNTYw.2S-HEbYGvgekIOrQVmywY04Zs2o2zugz87Y6p1wwTzMg.oV2iZLlQP4z4myblQ9Bsm2OyqDZ12mkk-fh-nQhnwNgg.JPEG.kioku714/6.jpg?type=w2" width="400px" />
+<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTEg/MDAxNDg3MzI0MDg1MTc1.SqFaRkUMtbNUjy6nrSnkWV1ONwvH8igaeUDmUjZyPdsg.FcIttYmG-J-Wk8l9QPbGjET6F-frDkYDOIjBvRtWPpEg.PNG.kioku714/6.png?type=w2" width="450px" />
 
-<img src="http://postfiles3.naver.net/MjAxNzAyMTdfODgg/MDAxNDg3MzIzMTYyNzkw.2JF3jW6-vfxcTGb3UMpnPIXKME2dv8GEaqayNoCELXgg.k92--uM3ew5GrUF547LauA1EfR1CUu0UNaFNOrnmjXEg.JPEG.kioku714/7.jpg?type=w2" width="400px" />
+<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm_8FLx0kxGtW43EV4SH6ZhRDDHmMMg._nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
 	
 2.tensorflow 라는 이름의 conda env 생성
 
