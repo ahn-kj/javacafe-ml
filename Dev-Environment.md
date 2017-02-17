@@ -29,7 +29,19 @@ Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있�
 	
 https://www.continuum.io/downloads
 
-캡처 이미지 7장 삽입
+<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMTQz/MDAxNDg3MzIzMTYxNTUx.BFpwB8-3ecPVhGYMcHgFiswqkQuo5so05M8Sx1ikVpYg.H-sJgm69wtkf5bzcVTdBzRpZzYDaiD4h_LoePE19_yQg.JPEG.kioku714/1.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMTM0/MDAxNDg3MzIzMTYxNzgz.T7iOl-uNYm4mKoVeM3_S7Clvj2RTPiB1AAcUN53RkyQg.L2yRfUOGYY0gCgEfX4yL2MRCVFx9gBfYdLkfXHKQ-Hkg.JPEG.kioku714/2.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles2.naver.net/MjAxNzAyMTdfMSAg/MDAxNDg3MzIzMTYxOTkx.u-T_156H02ntYWTOl3vnMKpjieMr4DinkL44bWhsRqUg.egptCE_tOuw3XHUv6HGa515Tb462E9dVMImlyCGp68Ug.JPEG.kioku714/3.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles16.naver.net/MjAxNzAyMTdfMjM5/MDAxNDg3MzIzMTYyMTU5.VRcWBqph3Yf86OMVHqn7Q1WOCwW_OPbh4hBA-ghvhvUg.M6Lxx3YgtcL9EtS9zhqKkEGvFi9r-VVQNFXOkvadJdwg.JPEG.kioku714/4.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMjcz/MDAxNDg3MzIzMTYyMzk1.ojotEt6M-bw6PoqVIrf-9KHV_wMNhUJUnsAc6UtHzb4g.ewgn9WA6tbu9Snf3JGBO-LF-OJZqthX0VYejr7JFTSAg.JPEG.kioku714/5.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles15.naver.net/MjAxNzAyMTdfMTIx/MDAxNDg3MzIzMTYyNTYw.2S-HEbYGvgekIOrQVmywY04Zs2o2zugz87Y6p1wwTzMg.oV2iZLlQP4z4myblQ9Bsm2OyqDZ12mkk-fh-nQhnwNgg.JPEG.kioku714/6.jpg?type=w2" width="400px" />
+
+<img src="http://postfiles3.naver.net/MjAxNzAyMTdfODgg/MDAxNDg3MzIzMTYyNzkw.2JF3jW6-vfxcTGb3UMpnPIXKME2dv8GEaqayNoCELXgg.k92--uM3ew5GrUF547LauA1EfR1CUu0UNaFNOrnmjXEg.JPEG.kioku714/7.jpg?type=w2" width="400px" />
 	
 2.tensorflow 라는 이름의 conda env 생성
 
