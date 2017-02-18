@@ -5,7 +5,8 @@
 알파고 등 최근 인공지능 기술에서 뺄수 없는 큰 가지중 하나가 머신러닝 입니다. 머신러닝은 한국말로 기계학습, 간단히 기계가 학습을 하는것 이라고 할 수 있습니다. 대체 기계가 학습을 한다는게 어떤 것일까요?
 
 <img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTE1/MDAxNDg3MzEzNDczODcw.AJBfGCBNXh7f1gR3Q8cio-UNkhGwfpcIhD3xAocclR0g.L-lhAgLtKKIA9WhQlboN2-et_aJLg46KJprr4TYwHnwg.JPEG.akj61300/ml-sample01.jpg?type=w2" width="800px" />
-
+<iframe src="https://render.githubusercontent.com/view/ipynb?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f72796768343737352f38663463623161613531653136666237393839333865663265373535626363612f7261772f353630333533396234636333373936313665303564333337633633303465613332633965353231392f4c6563747572652e6970796e62#dd786d1d-1672-4888-b0e6-b733f268f88d" >Viewer requires iframe.</iframe>
+<iframe class="" id="" src="http://jsbin.com/dacupu/embed?html,output" style="border: 1px solid rgb(170, 170, 170); width: 100%; min-height: 500px; max-height: 500px; height: 178px;"></iframe>
 기계가 학습을 한다고 말하면 위 사진 처럼 로봇이 책을 읽거나 공부를 하는 모습을 상상 할지도 모릅니다. 위의 사진도 틀린 얘기는 아니지만 기계학습의 핵심은 로봇이 아닌 스스로 학습을 하는 소프트웨어를 이야기합니다.
 
 현존하는 대부분의 소프트웨어는 프로그래머 또는 개발자라고 불리우는 사람들의 손에서 탄생됩니다. 간단한 프로그램이라도 특정 조건에 따라 프로그램이 어떻게 동작해야 하는지 사람이 일일이 프로그래밍 하는 것이죠. 심하게 말하면 컴퓨터 또는 프로그램이 자동으로 되는 것은 아무것도 없다고 볼수 있습니다. 모두 사람 손에 의해 만들어졌고, 의도한대로 동작되는 것입니다.(의도한대로 동작 안될수도 있지만 그런것은 보통 버그라고 부릅니다.) 
