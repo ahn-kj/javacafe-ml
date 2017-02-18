@@ -5,7 +5,6 @@
 알파고 등 최근 인공지능 기술에서 뺄수 없는 큰 가지중 하나가 머신러닝 입니다. 머신러닝은 한국말로 기계학습, 간단히 기계가 학습을 하는것 이라고 할 수 있습니다. 대체 기계가 학습을 한다는게 어떤 것일까요?
 
 <img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTE1/MDAxNDg3MzEzNDczODcw.AJBfGCBNXh7f1gR3Q8cio-UNkhGwfpcIhD3xAocclR0g.L-lhAgLtKKIA9WhQlboN2-et_aJLg46KJprr4TYwHnwg.JPEG.akj61300/ml-sample01.jpg?type=w2" width="800px" />
-<iframe class="render-viewer" src="https://render.githubusercontent.com/view/ipynb?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f72796768343737352f38663463623161613531653136666237393839333865663265373535626363612f7261772f353630333533396234636333373936313665303564333337633633303465613332633965353231392f4c6563747572652e6970796e62#dd786d1d-1672-4888-b0e6-b733f268f88d" sandbox="allow-scripts allow-same-origin allow-top-navigation" width="800px">Viewer requires iframe.</iframe>
 
 기계가 학습을 한다고 말하면 위 사진 처럼 로봇이 책을 읽거나 공부를 하는 모습을 상상 할지도 모릅니다. 위의 사진도 틀린 얘기는 아니지만 기계학습의 핵심은 로봇이 아닌 스스로 학습을 하는 소프트웨어를 이야기합니다.
 
