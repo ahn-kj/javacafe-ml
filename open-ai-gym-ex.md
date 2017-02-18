@@ -1,8 +1,2 @@
-# Open AI Gym 을 이용한 간단한 게임 실습 
+<iframe class="render-viewer" src="https://render.githubusercontent.com/view/ipynb?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f72796768343737352f38663463623161613531653136666237393839333865663265373535626363612f7261772f353630333533396234636333373936313665303564333337633633303465613332633965353231392f4c6563747572652e6970796e62#dd786d1d-1672-4888-b0e6-b733f268f88d" sandbox="allow-scripts allow-same-origin allow-top-navigation" width="800px">Viewer requires iframe.</iframe>
 
-> TODO: 실제 실습 코드와 쉬운 주석, 코드 동작 원리등을 정리하면 될것 같습니다.
-
-<script src="https://gist.github.com/rygh4775/8f4cb1aa51e16fb798938ef2e755bcca.js">
-</script>
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
