@@ -15,15 +15,18 @@ Windows 10 Pro 64bit
 ### 텐서플로우 설치 방법 결정
 
 그 다음은 "native" pip으로 설치할지, Anaconda로 설치할지 선택해야 합니다.
+
 Native pip는 가상 환경을 거치지 않고 시스템에 TensorFlow를 직접 설치하기 때문에 시스템의 다른 Python 기반 설치에 영향을 줄 수 있습니다.
+
 Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있습니다. 그러나 아나콘다에서는 cond install 명령 대신 pip install 명령을 사용하여 TensorFlow를 설치하는 것이 좋습니다.
+
 참고 : conda 패키지는 공식적으로 지원되지 않는 커뮤니티 지원입니다. 즉, TensorFlow 팀은 conda 패키지를 테스트하거나 유지 관리하지 않습니다.
 
 ### Anaconda를 이용한 설치
 
-1. Anaconda 4.3.0 For Windows Python 3.6 version 64-BIT INSTALLER(422m) 설치
+1.Anaconda 4.3.0 For Windows Python 3.6 version 64-BIT INSTALLER(422m) 설치
 
-https://www.continuum.io/downloads
+    https://www.continuum.io/downloads
 
 <img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTUg/MDAxNDg3MzI0MDgzMjUw.D5qUa5cVzWXh681YIi4Ef23Iykj3n4nsKRJWpayMtJAg.\_-iputvfARxh64VALWa7dUww62m0ijp8JURJ-zZFl7Yg.PNG.kioku714/1.png?type=w2" width="450px" />
 
@@ -39,7 +42,7 @@ https://www.continuum.io/downloads
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm\_8FLx0kxGtW43EV4SH6ZhRDDHmMMg.\_nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
 
-2. tensorflow 라는 이름의 conda env 생성
+2.tensorflow 라는 이름의 conda env 생성
 
 ```
 C:> conda create -n tensorflow python=3.5
@@ -48,18 +51,18 @@ C:> conda create -n tensorflow python=3.5
 TensorFlow는 Windows용 Python 3.5.x 만 지원합니다.
 우리가 설치한 Anaconda는 Python 3.6이 기본 설정이므로 명령어에 python=3.5를 추가해야 합니다.
 
-3. conda env 활성화
+3.conda env 활성화
 
 ```
 C:> activate tensorflow
 (tensorflow)C:> #
 ```
 
-4. CPU 버전 텐서플로우 설치
+4.CPU 버전 텐서플로우 설치
 
 (tensorflow)C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win\_x86\_64.whl
 
-5. 설치 확인
+5.설치 확인
 
 터미널을 새로 연 후,
 ```
