@@ -142,7 +142,8 @@ b'hello!'
 
 ### conda env 삭제 명령어
 
-conda remove -n "삭제할 conda env 이름" --all
+> conda remove -n (삭제할 conda env 이름) --all
+
 ```
 C:> conda remove -n tensorflow --all
 ```
