@@ -3,10 +3,11 @@
 ## 참고 사이트
 https://www.tensorflow.org/install/install\_windows
 
-## 설치환경
+## 설치 환경
+
 Windows 10 Pro 64bit
 
-## 설치과정
+## 설치 과정
 
 ### 어떤 텐서플로우를 설치할 것인가 결정
 
@@ -42,7 +43,7 @@ https://www.continuum.io/downloads
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm_8FLx0kxGtW43EV4SH6ZhRDDHmMMg._nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
 
-2.tensorflow 라는 이름의 conda env 생성
+2.명령 프롬프트를 열고 tensorflow 라는 이름의 conda env 생성
 
 ```
 C:> conda create -n tensorflow python=3.5
