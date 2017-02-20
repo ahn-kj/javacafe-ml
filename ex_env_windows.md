@@ -27,20 +27,19 @@ Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있�
 1.Anaconda 4.3.0 For Windows Python 3.6 version 64-BIT INSTALLER(422m) 설치
 
     https://www.continuum.io/downloads
+<img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTUg/MDAxNDg3MzI0MDgzMjUw.D5qUa5cVzWXh681YIi4Ef23Iykj3n4nsKRJWpayMtJAg._-iputvfARxh64VALWa7dUww62m0ijp8JURJ-zZFl7Yg.PNG.kioku714/1.png?type=w2" width="450px" />
 
-<img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTUg/MDAxNDg3MzI0MDgzMjUw.D5qUa5cVzWXh681YIi4Ef23Iykj3n4nsKRJWpayMtJAg.\_-iputvfARxh64VALWa7dUww62m0ijp8JURJ-zZFl7Yg.PNG.kioku714/1.png?type=w2" width="450px" />
+<img src="http://postfiles10.naver.net/MjAxNzAyMTdfMTcz/MDAxNDg3MzI0MDgzNDcz.kR4EeyY7J1cWKPSSGg_mNgGvmZIbEArk4ihBpWYC6Qog.xFk40A99EYdcYEb23eVivl7apzRShhpV0tE36h3dle4g.PNG.kioku714/2.png?type=w2" width="450px" />
 
-<img src="http://postfiles10.naver.net/MjAxNzAyMTdfMTcz/MDAxNDg3MzI0MDgzNDcz.kR4EeyY7J1cWKPSSGg\_mNgGvmZIbEArk4ihBpWYC6Qog.xFk40A99EYdcYEb23eVivl7apzRShhpV0tE36h3dle4g.PNG.kioku714/2.png?type=w2" width="450px" />
+<img src="http://postfiles7.naver.net/MjAxNzAyMTdfOTEg/MDAxNDg3MzI0MDgzODQx.kY5fBYLnL2FXOar5eRFKh-z0d8CaupSxkRkBLVPqv-Ug.Rv6fn099hL8fW0BHockSDMcyiLxoPm7ylGk_fI-G1Ngg.PNG.kioku714/4.png?type=w2" width="450px" />
 
-<img src="http://postfiles7.naver.net/MjAxNzAyMTdfOTEg/MDAxNDg3MzI0MDgzODQx.kY5fBYLnL2FXOar5eRFKh-z0d8CaupSxkRkBLVPqv-Ug.Rv6fn099hL8fW0BHockSDMcyiLxoPm7ylGk\_fI-G1Ngg.PNG.kioku714/4.png?type=w2" width="450px" />
+<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMzgg/MDAxNDg3MzI0MDgzNjYw.g5JcndRc04QI6TsqBZk-k6qEhPu9UsrUnYHRDMfG_K4g.5ANgBYo_S91tLbTRoR_TEHu0XWzzrpujmk7WgatGWfYg.PNG.kioku714/3.png?type=w2" width="450px" />
 
-<img src="http://postfiles12.naver.net/MjAxNzAyMTdfMzgg/MDAxNDg3MzI0MDgzNjYw.g5JcndRc04QI6TsqBZk-k6qEhPu9UsrUnYHRDMfG\_K4g.5ANgBYo\_S91tLbTRoR\_TEHu0XWzzrpujmk7WgatGWfYg.PNG.kioku714/3.png?type=w2" width="450px" />
-
-<img src="http://postfiles2.naver.net/MjAxNzAyMTdfMTEw/MDAxNDg3MzI0MDg0OTE3.4AzGYv6A47yiHK3kPnvWYuLfC\_f2LPEZ2IVcYcBKnM8g.eZ3V661lAOZqLdLV9OD5lih2OdPg68dyx4O3WIuW5mYg.PNG.kioku714/5.png?type=w2" width="450px" />
+<img src="http://postfiles2.naver.net/MjAxNzAyMTdfMTEw/MDAxNDg3MzI0MDg0OTE3.4AzGYv6A47yiHK3kPnvWYuLfC_f2LPEZ2IVcYcBKnM8g.eZ3V661lAOZqLdLV9OD5lih2OdPg68dyx4O3WIuW5mYg.PNG.kioku714/5.png?type=w2" width="450px" />
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTEg/MDAxNDg3MzI0MDg1MTc1.SqFaRkUMtbNUjy6nrSnkWV1ONwvH8igaeUDmUjZyPdsg.FcIttYmG-J-Wk8l9QPbGjET6F-frDkYDOIjBvRtWPpEg.PNG.kioku714/6.png?type=w2" width="450px" />
 
-<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm\_8FLx0kxGtW43EV4SH6ZhRDDHmMMg.\_nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
+<img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm_8FLx0kxGtW43EV4SH6ZhRDDHmMMg._nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
 
 2.tensorflow 라는 이름의 conda env 생성
 
