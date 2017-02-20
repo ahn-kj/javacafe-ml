@@ -26,7 +26,8 @@ Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있�
 
 1.Anaconda 4.3.0 For Windows Python 3.6 version 64-BIT INSTALLER(422m) 설치
 
-    https://www.continuum.io/downloads
+https://www.continuum.io/downloads
+
 <img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTUg/MDAxNDg3MzI0MDgzMjUw.D5qUa5cVzWXh681YIi4Ef23Iykj3n4nsKRJWpayMtJAg._-iputvfARxh64VALWa7dUww62m0ijp8JURJ-zZFl7Yg.PNG.kioku714/1.png?type=w2" width="450px" />
 
 <img src="http://postfiles10.naver.net/MjAxNzAyMTdfMTcz/MDAxNDg3MzI0MDgzNDcz.kR4EeyY7J1cWKPSSGg_mNgGvmZIbEArk4ihBpWYC6Qog.xFk40A99EYdcYEb23eVivl7apzRShhpV0tE36h3dle4g.PNG.kioku714/2.png?type=w2" width="450px" />
@@ -59,7 +60,9 @@ C:> activate tensorflow
 
 4.CPU 버전 텐서플로우 설치
 
+```
 (tensorflow)C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win\_x86\_64.whl
+```
 
 5.설치 확인
 
