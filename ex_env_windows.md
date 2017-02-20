@@ -1,7 +1,7 @@
 # 실습환경 구성(윈도우)
 
 ## 참고 사이트
-https://www.tensorflow.org/install/install\_windows
+https://www.tensorflow.org/install/install_windows
 
 ## 설치 환경
 
