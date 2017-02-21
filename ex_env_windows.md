@@ -165,6 +165,8 @@ b'hello!'
 >>>
 ```
 
+https://github.com/tensorflow/tensorflow/issues/7716
+
 ### conda env 삭제 명령어
 
 > conda remove -n (삭제할 conda env 이름) --all
