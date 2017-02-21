@@ -82,12 +82,12 @@ C:> activate tensorflow
 
 # 프로그램 입력
 >>> import tensorflow as tf
->>> hello = tf.constant('hello!')
+>>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
 >>> print(sess.run(hello))
 
 # 아래 메세지가 출력되면 설치 성공
-b'hello!'
+b'Hello, TensorFlow!'
 >>>
 ```
 
