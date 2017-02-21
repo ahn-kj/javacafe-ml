@@ -123,8 +123,23 @@ $ source ~/tensorflow/bin/activate.csh
 Hello, TensorFlow!
 >>>
 ```
+## 에러 리스트
 
-### virtualenv 환경 비활성화
+### 설치 후 발생한 warning
+
+#### warning 메세지
+
+```
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+```
+
+https://www.facebook.com/groups/TensorFlowKR/permalink/425382234469507/
+
+## virtualenv 환경 비활성화
 
 아래 명령어를 실행하면 기본 프롬프트로 되돌아갑니다.
 
@@ -132,7 +147,7 @@ Hello, TensorFlow!
 (tensorflow)$ deactivate
 ```
 
-### virtualenv 환경 삭제
+## virtualenv 환경 삭제
 
 > $ rm -r targetDirectory
 
