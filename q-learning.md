@@ -22,6 +22,12 @@ Frozen Lake 게임을 예로 들어보겠습니다.
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMThfMTg4/MDAxNDg3NDAzMDA3Nzc0.nQedecAA5-pH98E_ndo3XWb6AhqbrGYoMqS8z9MiQxgg.FjYBlLdIgOEiduV6-qpGSAKJuq3LKT1wi-YctEpqLnYg.PNG.akj61300/map.png?type=w2" />  
 
+여러가지 방법으로 각 상태에 대한 보상을 줄수 있지만 여기서는 단순하게 생각하기 위해 골(목적지) 상태는 보상을 1로 하고 나머지 상태는 보상을 0으로 해보겠습니다.
+
+<img src="http://postfiles6.naver.net/MjAxNzAyMjRfMTgw/MDAxNDg3OTAxNzAzMzk0.6IWM8bF39JFph3SoDI9fFV5vd6V0aouYWc7LcnAhFBog.ydBLN2lk8eQnAscIU3hcX4j95Jd57D21Vw9cLY8PbcQg.PNG.akj61300/map2.png?type=w2" />
+
+
+
 강화학습을 위해 목적지에 도달한 경우 보상 1을 얻고 그렇지 않은 경우에는 보상이 0 이라고 생각해 보겠습니다. 위에서 Q 는 각 상태에서 취할 수 있는 액션에 대한 기대 보상을 가지고 있다고 했습니다. 그것을 그림으로 표현하면 다음과 같이 될 것입니다.
 
 
