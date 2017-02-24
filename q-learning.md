@@ -12,17 +12,17 @@
 
 * 현재 상태에서 특정 액션을 취했을때 기대되는 보상을 알려주는 기능 -> maxQ(상태, 액션)
 
-* 현재 상태에서 가장 보상이 높은 액션을 알려주는 기능 -> argmaxQ(상태, 액션[])
+* 현재 상태에서 가장 보상이 높은 액션을 알려주는 기능 -> argmaxQ(상태, 액션)
 
-위에 기능을 구현하기 위하여 Q 는 Q 테이블을 사용합니다. Q 테이블은 각 상태에서 취할수 있는 모든 액션들의 기대보상을 가지고 있습니다. 그리고 액션을 취하면서 이 Q 테이블을 업데이트 하자는 것이 기본적인 아이디어입니다.
+위에 기능을 구현하기 위하여 Q 는 Q 테이블을 사용합니다. Q 테이블은 각 상태에서 취할수 있는 모든 액션들의 기대보상을 가지고 있습니다. 그리고 액션을 취하다 보면 어느순간 보상이 있는 상태에 도달하게 될 것입니다. 이때 직전 상태에서 취한 액션의 기대보상을 Q 테이블에서 업데이트 하자는 것이 기본적인 아이디어입니다.
 
-Frozen Lake 게임을 예로 Q 가 어떻게 동작하는지 예를 들어보겠습니다.
+이해를 돕기위해 Frozen Lake 게임으로 Q 가 어떻게 동작하는지 예를 들어보겠습니다.
 
 위 실습에서 게임을 진행해본 Frozen Lake 게임은 16개의 상태가 있습니다. 각 상태를 테이블처럼 표현하면 다음과 같이 될 것입니다.
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMThfMTg4/MDAxNDg3NDAzMDA3Nzc0.nQedecAA5-pH98E_ndo3XWb6AhqbrGYoMqS8z9MiQxgg.FjYBlLdIgOEiduV6-qpGSAKJuq3LKT1wi-YctEpqLnYg.PNG.akj61300/map.png?type=w2" />
 
-여러가지 방법으로 각 상태에 대한 보상을 줄수 있지만 여기서는 단순하게 생각하기 위해 골(목적지) 상태는 보상을 1로 하고 나머지 상태는 보상을 0으로 해보겠습니다. 그것을 그림으로 보면 다음과 같이 됩니다. 
+여러가지 방법으로 각 상태에 대한 보상을 줄수 있지만 여기서는 단순하게 생각하기 위해 골(목적지) 상태는 보상을 1로 하고 나머지 상태는 보상을 0으로 해보겠습니다. 그것을 그림으로 보면 다음과 같이 됩니다.
 
 <img src="http://postfiles6.naver.net/MjAxNzAyMjRfMTgw/MDAxNDg3OTAxNzAzMzk0.6IWM8bF39JFph3SoDI9fFV5vd6V0aouYWc7LcnAhFBog.ydBLN2lk8eQnAscIU3hcX4j95Jd57D21Vw9cLY8PbcQg.PNG.akj61300/map2.png?type=w2" />
 
@@ -36,7 +36,7 @@ Frozen Lake 게임을 예로 Q 가 어떻게 동작하는지 예를 들어보겠
 
 <img src="http://postfiles10.naver.net/MjAxNzAyMjRfODIg/MDAxNDg3OTA0MDc3Mjg5.Y4xUGwQ-OfBAghDoJXi0zYzmZnf4pt7DDqy0iwvClUsg.cY4dMc0cgNl9_rUN_uRcEvQRrAecWX7_3j-wdCgSRI0g.PNG.akj61300/q_map02.png?type=w2" />
 
-게임을 시작하고 꽤 오랫동안은 Q 테이블의 값이 모두 0이기 때문에 어디로 가는것이 최선인지 알려줄수가 없습니다. 
+게임을 시작하고 꽤 오랫동안은 Q 테이블의 값이 모두 0이기 때문에 어디로 가는것이 최선인지 알려줄수가 없습니다.
 그러므로 어느정도 기간은 아무 액션이나 랜덤하게 선택하여 환경을 변화시켜 보는 방법 밖에 없습니다.
 
 만약 랜덤으로 선택한 액션이 시작점에서 오른쪽으로 간 뒤 아래쪽으로 가는 액션이면 어떻게 될까요?
@@ -53,5 +53,41 @@ Frozen Lake 게임을 예로 Q 가 어떻게 동작하는지 예를 들어보겠
 
 <img src="http://postfiles5.naver.net/MjAxNzAyMjRfMzAw/MDAxNDg3OTEwNTk0NzYx.YlZoQoPlZSrx-p8XWxBXldwYsX1WDud1Wt5czoPiKWsg.xWkFwXIF3IFAg73gthpbMOS_hCi3vh7mE_ZKHGSymWYg.GIF.akj61300/random03.gif?type=w2" />
 
-마지막 골에 도착한 후에 골 바로 이전 상태에서 Right 액션에 대한 기대보상이 1로 바뀐것에 주목해주세요.
+마지막 골에 도착한 후에 골 바로 이전 상태에서 Right 액션에 대한 기대보상이 1로 바뀐것에 주목해주세요. 이제 Q 는 4행 3열에 있는 상태에서 Right 액션을 취하면 보상이 1이 된다는 것을 드디어 알게 된 것입니다. 
 
+이제 3행 3열에 있는 상태까지만 어떻게든 도달할 수 있다면 Right 액션을 취하면 된다고 Q 가 알려줄 수 있게된 것입니다. 즉 목적지를 골로 볼 필요 없이 4행 3열 에 있는 상태까지만 도달할 수 있다면 된것이죠.
+
+또 반복해서 행동을 취하다보면 어느순간에 4행 3열에 해당하는 상태에 도달할때가 있을 것입니다. 이를 테면 다음과 같은 액션을 취했다고 생각해보겠습니다.
+
+* Down -> Down -> Right -> Right -> Down
+
+<img src="http://postfiles5.naver.net/MjAxNzAyMjRfNTQg/MDAxNDg3OTExNTMzOTM4.7EmbrgffUZEn-RYGK1MqjOEKVVbNo1B-bsTjbZT4HD8g.TZ-GqVY3Zs08GITqvCv6zQH1VBltCIBnesThhsDhA6Yg.GIF.akj61300/random04.gif?type=w2" />
+
+이번에는 4행 3열 이전 상태중 하나인 3행 3열에 Down 액션에 대한 기대보상이 1로 변하게 됩니다. 이제 목표 지점은 4행 3열이 아닌 3행 3열이 되겠죠.
+
+이런식으로 랜덤하게 시행착오를 반복하다보면 어느순간에는 시작점부터 Q가 기대보상을 가지고 제대로 길안내를 하게 될 것입니다.
+
+시행착오를 반복하면서 Q 테이블이 다음과 같이 업데이트 되었다고 가정하겠습니다.
+
+<img src="http://postfiles2.naver.net/MjAxNzAyMjRfNjAg/MDAxNDg3OTEyMDA1MzA2.lC-qpfE6tgZ6H9NtNnmDq93MurWR-NGH-pZ3hE2PvrUg.y9jUubHN_HFe2zZvQ_ssn3b-bKjUhdhVmAYMDlmBsHIg.PNG.akj61300/update01.png?type=w2" />
+
+이제는 각 상태에서 어느쪽으로 가는게 최대보상인지 Q가 언제나 알려줄수 있습니다. 즉 길을 헤맬 이유가 없게 된것이죠. 지금까지 보아온 과정을 코드로 옮기기 위해서 동작과정을 정리하면 다음과 같습니다.
+
+1. Q 테이블을 0으로 모두 초기화
+2. 현재 상태에서 Q테이블의 액션 기대값중 가장 큰 액션 선택. 모든 액션의 기대값이 0 이라면 랜덤하게 액션 선택
+3. 현재상태에서 액션을 취해 환경을 변화시킴.
+4. 새로운 상태에서 보상이 있다면 현재상태에서 취한 액션에 기대보상을 업데이트.
+5. 새로운 상태를 현재 상태로 바꿈.
+5. 다시 2번 스텝부터 반복
+
+위와 같이 Q 테이블이 업데이트 되는 과정을 수학적으로 한줄로 표현하면 다음과 같이 됩니다.
+
+<img src="http://postfiles7.naver.net/MjAxNzAyMjRfNDQg/MDAxNDg3OTE2MDcxMTQ4.YZMQNmz66Og7mG7VDHb_IAwYunRn6TdCZdXyw1WcXKwg.m8FFW3w36wFyy-uXzrhkczrMN3A_jDGSWWuitgdMbO8g.PNG.akj61300/math_01.png?type=w2" />
+
+수학식으로 보면 상당히 난해하게 보일 수 있습니다. 이해하기 쉽게 한글로 보면 다음과 같습니다.
+
+Q(상태, 액션) <- 현재 상태의 보상 + 액션을 취했을때 다음 상태의 기대보상 중 최대값
+
+즉 현재의 Q 테이블의 액션에 대한 기대 보상을, 전달받은 액션을 취한뒤 다음 상태에서의 기대보상중 최대값으로 업데이트 한다는 이야기입니다.
+
+이것을 실제로 코드로 작성하면 어떻게 되는지 다음 장에서 실습으로 확인하도록 하겠습니다.
