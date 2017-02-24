@@ -6,7 +6,7 @@
 
 이를테면 Deep Q Learning 으로 유명한 아타리 벽돌깨기 게임의 경우를 생각해보죠. 
 
-<img src="http://postfiles4.naver.net/MjAxNzAyMjRfNiAg/MDAxNDg3OTE3NTkzMTQ4.Bpw-Zaftf6euLuaZID3JsVLpO_U5rAV3tcG92Qv6kVcg.dEVpR9Qzs-eyHKKribhwmKCG0zxn2D-OKwWvve86FjIg.PNG.akj61300/atari.png?type=w2" width="400px" />
+<img src="http://postfiles11.naver.net/MjAxNzAyMjRfMjcg/MDAxNDg3OTE5MDY3NjE4.RaRFx4VLC2bF7ko_Lrd4Vr-0LHWwm_MwaSmmISGWdYgg.Arog54mYYWmFmwP_RztdRD53bCXXHzd4GycAT6GzxuUg.GIF.akj61300/atari.gif?type=w2" width="400px" />
 
 벽돌깨기 게임에서 환경은 벽돌의 상태, 공의 상태, 점수, 하단 막대 등이 될것이고 프로그램 내에서 취할수 있는 액션은 Left, Right 방향키 일 것입니다. 어쩌면 벽돌깨기 게임에서 환경은 현재 시점에서의 스크린 이미지 일수도 있습니다.
 
