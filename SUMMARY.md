@@ -11,7 +11,7 @@
 * [Simple\(Dummy\) Q 러닝의 문제점](simple-q-problem.md)
 * [Exploit, Exploration 적용](exploit-exploration.md)
 * [E-Greedy Decaying 기법 소개](e-greedy-decaying.md)
-* Random Noise 기법 소개
+* [Random Noise 기법 소개](random-noise.md)
 * [Discounted Reward 개념](discounted-reward.md)
 * Nondeterministic 환경 설명
 * Nondeterministic 에서는 어떻게 학습해야 하는가?
