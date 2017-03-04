@@ -33,6 +33,6 @@
 * 안귀정 - rnlwjd0613@gmail.com
 * 유미령 - kioku714@gmail.com
 * 이은미 - 
-* 조현수 -
+* 조현수 - rygh4775@gmail.com
 * 석혜진 -
 
