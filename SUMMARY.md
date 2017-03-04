@@ -9,7 +9,6 @@
 * [Simple\(Dummy\) Q Learning 기법\(Table\) 소개](q-learning.md)
 * [Simple Q 알고리즘 실습](q-ex.md)
 * [Simple\(Dummy\) Q 러닝의 문제점](simple-q-problem.md)
-* [Exploit, Exploration 적용](exploit-exploration.md)
 * [E-Greedy Decaying 기법 소개](e-greedy-decaying.md)
 * [Random Noise 기법 소개](random-noise.md)
 * [Discounted Reward 개념](discounted-reward.md)
