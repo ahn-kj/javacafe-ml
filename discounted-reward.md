@@ -15,3 +15,5 @@ Exploit & Exploration을 통해 여러가지 길들을 찾았다고 가정을 �
 
 
 (내용 추가 예정)
+
+![](/assets/discounted_reward_ex2.png)
