@@ -64,7 +64,7 @@ while True:
 
 이와 같이, 다음 action을 예측할 수 없을 때 Stochastic(non-deterministic) 하다고 말합니다. Stochastic 상태에서 기존의 Q-table 업데이트 알고리즘을 그대로 사용한다면 아래 이미지와 같이 성공률이 현저하게 줄어듭니다. 어떤 방법으로 Stochastic 상태의 성공률을 올릴 수 있을까요?
 
-<img src="http://postfiles11.naver.net/MjAxNzAzMDdfMzAw/MDAxNDg4ODE4MzkyOTk2._rFK4NqVbL5e81lzhlh36gEV12q0vXpZ3qRrXoF008og.vIbqtDAj6TpwtlMMry7TJFP7S1A3NN53vUJtw4vlivYg.PNG.kioku714/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2017-03-07_%EC%98%A4%EC%A0%84_1.13.00.png?type=w2" width="600px" />
+<img src="http://postfiles2.naver.net/MjAxNzAzMDdfMTE1/MDAxNDg4ODE5NjY2MjMz.QhJScVnswudioTU-5veabtcnmVYwuV9C-DENiTQZ31Ig.7Dp0QFeGTHOOmeKIPwv9wTyhhxdD6LmvhQes2DpaCXwg.PNG.kioku714/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2017-03-07_%EC%98%A4%EC%A0%84_2.00.04.png?type=w2" width="500px" />
 
 ## Sarsa 알고리즘
 
