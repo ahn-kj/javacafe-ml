@@ -1,4 +1,4 @@
-![](/assets/Screen Shot 2017-03-04 at 11.09.40 PM.png)# Simple Q Learning 기법(Table) 소개
+# Simple Q Learning 기법(Table) 소개
 
 그렇다면 강화 학습을 프로그램으로 구현하기 위해서는 어떻게 해야 할까요? 위의 실습에서 Open AI Gym 프로즌 레이크 게임을 예로 들어 보겠습니다. 위의 게임에서는 현재 상태와 맵 정보, 골은 어디에 있고 어디가 함정인지 모두 알고 있는 상태에서 시작했습니다.
 
