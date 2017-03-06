@@ -12,5 +12,5 @@
 * [E-Greedy Decaying 기법 소개](e-greedy-decaying.md)
 * [Random Noise 기법 소개](random-noise.md)
 * [Discounted Reward 개념](discounted-reward.md)
-* [Stochastic 의미와 사용기법 설명](nondeterministic.md)
+* [Stochastic의 의미와 사용기법 설명](nondeterministic.md)
 
