@@ -57,7 +57,8 @@ while True:
 ```
 
 
-위 코드를 실행하여 Right→Right→Right→Right→Right→Right로 입력했을 때, 실제로는 제자리→Down→Down→UP→DOWN→DOWN으로 랜덤하게 이동하는 것을 확인할 수 있습니다.
+위 코드를 실행하여 Right→Right→Right→Right→Right→Right로 입력했을 때,  
+실제로는 제자리→Down→Down→UP→DOWN→DOWN으로 랜덤하게 이동하는 것을 확인할 수 있습니다.
 
 <img src="http://postfiles5.naver.net/MjAxNzAzMDdfNjcg/MDAxNDg4ODE4MzkzNDc2.1kKLbBXet8hpXCtcIK_P6zE6AHUV5D6KCRAJYnZjGoIg.nQuXsy0c0McOiUMSgwMIMbLFL9LUk_sULQ2vcbUsHfwg.PNG.kioku714/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2017-03-07_%EC%98%A4%EC%A0%84_12.44.52.png?type=w2" width="400px" />
 
