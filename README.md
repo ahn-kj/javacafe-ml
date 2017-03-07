@@ -2,7 +2,7 @@
 
 지난 해 구글 딥 마인드에서 개발한 인공지능 바둑 프로그램 알파고가 세계 정상급 바둑 프로기사인 이세돌 9단을 이기면서 인공지능에 대한 관심은 점차 높아져 가고 있습니다.
 
-알파고 등 최근 인공지능 기술에서 뺄수 없는 큰 가지중 하나가 머신러닝 입니다. 머신러닝은 한국말로 기계학습, 간단히 기계가 학습을 하는것 이라고 할 수 있습니다. 대체 기계가 학습을 한다는게 어떤 것일까요?
+알파고 등 최근 인공지능 기술에서 뺄 수 없는 큰 가지 중 하나가 머신러닝 입니다. 머신러닝은 한국말로 기계학습, 간단히 기계가 학습을 하는 것이라고 할 수 있습니다. 대체 기계가 학습을 한다는게 어떤 것일까요?
 
 <img src="http://postfiles8.naver.net/MjAxNzAyMTdfMTE1/MDAxNDg3MzEzNDczODcw.AJBfGCBNXh7f1gR3Q8cio-UNkhGwfpcIhD3xAocclR0g.L-lhAgLtKKIA9WhQlboN2-et_aJLg46KJprr4TYwHnwg.JPEG.akj61300/ml-sample01.jpg?type=w2" width="800px" />
 
