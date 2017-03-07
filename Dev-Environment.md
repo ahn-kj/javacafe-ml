@@ -42,7 +42,7 @@ Tensorflow에서는 virtualenv를 권장합니다. Virtualenv는 다른 Python �
 >virtualenv --system-site-packages targetDirectory
 
 targetDirectory는 virtualenv tree의 최상위 루트로 간주합니다. 예시에는 targetDirectory가 ~/tensorflow이지만 사용자 마음대로 지정할 수 있습니다.
---system-site-packages 옵션은 가상 환경에게 글로벌 사이트 패키지의 액세스 권한 부여합니다.
+--system-site-packages 옵션은 가상 환경에게 global site-packages의 액세스 권한 부여합니다.
 
 ```
 $ virtualenv --system-site-packages ~/tensorflow
