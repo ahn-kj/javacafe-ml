@@ -88,16 +88,14 @@ $ pip3 install --upgrade tensorflow
 
 > pip install --upgrade TF_BINARY_URL
 
-여기서 TF_BINARY_URL은 TensorFlow Python 패키지의 URL을 식별합니다. TF_BINARY_URL의 적절한 값은 운영 체제, Python 버전 및 GPU 지원에 따라 다릅니다. 그러므로 시스템에 적합한 TF_BINARY_URL 값을 찾아서 사용해야 합니다.
+여기서 TF_BINARY_URL은 TensorFlow Python 패키지의 URL입니다. TF_BINARY_URL의 적절한 값은 운영 체제, Python 버전 및 GPU 지원에 따라 다릅니다. 그러므로 시스템에 적합한 TF_BINARY_URL 값을 찾아서 사용해야 합니다.
 
 ```
 # Mac OS X, Python 버전 2.7 및 CPU 전용
-$ pip install --upgrade \
- https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py2-none-any.whl
+$ pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py2-none-any.whl
 
 # Mac OS X, Python 버전 3.4 또는 3.5 및 CPU 전용
-$ pip3 install --upgrade \
- https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl
+$ pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl
 ```
 
 참고 : 시스템에 적합한 TF_BINARY_URL는 아래 링크에서 찾을 수 있습니다. https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md
