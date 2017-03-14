@@ -1,20 +1,14 @@
 # 텐서플로우(TensorFlow) 설치
 
-텐서플로우 사이트에서 제공하는 윈도우용 설치 가이드를 따라서 설치를 진행해보도록 하겠습니다. 윈도우 버전은 Windows 10 Pro 64bit입니다.
+텐서플로우 사이트에서 제공하는 설치 가이드를 따라서 설치를 진행해보도록 하겠습니다. 윈도우 버전은 Windows 10 Pro 64bit입니다.
 
 https://www.tensorflow.org/install/install_windows
 
-## 2. 설치 환경
-
-Windows 10 Pro 64bit
-
-## 3. 설치 과정
-
-### 3.1 어떤 텐서플로우를 설치할 것인가 결정
+## 어떤 텐서플로우를 설치할 것인가 결정
 
 텐서플로우를 설치하기 전에 먼저 CPU로 돌릴지 GPU로 돌릴지 결정해야 합니다. 시스템에 NVIDIA® GPU가 없으면 CPU 버전을 설치해야 합니다. 이 문서에서는 CPU 버전을 설치합니다.
 
-### 3.2 텐서플로우 설치 방법 결정
+## 텐서플로우 설치 방법 결정
 
 * "native" pip
 * Anaconda
@@ -25,9 +19,9 @@ Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있�
 
 참고 : conda 패키지는 공식적으로 지원되지 않는 커뮤니티 지원입니다. 즉, TensorFlow 팀은 conda 패키지를 테스트하거나 유지 관리하지 않습니다.
 
-### 3.3 Anaconda를 이용한 텐서플로우 설치
+## Anaconda를 이용한 텐서플로우 설치
 
-#### 1. Anaconda 설치
+### 1. Anaconda 설치
 
 Anaconda 4.3.0 For Windows Python 3.6 version 64-BIT INSTALLER(422m)를 설치합니다.
 
@@ -47,7 +41,7 @@ https://www.continuum.io/downloads
 
 <img src="http://postfiles14.naver.net/MjAxNzAyMTdfMTM1/MDAxNDg3MzI0MDg1NDE2.10vt1YlKHGIt-Cm_8FLx0kxGtW43EV4SH6ZhRDDHmMMg._nP4HrrEfuioNeR-PTn0ZIdGNG4dGq5f5XHLnVZx0-og.PNG.kioku714/7.png?type=w2" width="450px" />
 
-#### 2. conda env 생성
+### 2. conda env 생성
 
 명령 프롬프트를 열고 tensorflow 라는 이름의 conda env를 만듭니다.
 
@@ -58,20 +52,20 @@ C:> conda create -n tensorflow python=3.5
 **TensorFlow는 Windows에서 Python 버전 3.5.x만 지원합니다.**
 우리가 설치한 Anaconda는 Python 3.6이 기본 설정이므로, 명령어에 python=3.5를 추가해야 합니다.
 
-#### 3. conda env 활성화
+### 3. conda env 활성화
 
 ```
 C:> activate tensorflow
 (tensorflow)C:> #
 ```
 
-#### 4. 텐서플로우 CPU 버전 설치
+### 4. 텐서플로우 CPU 버전 설치
 
 ```
 (tensorflow)C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win\_x86\_64.whl
 ```
 
-#### 5. 설치 확인
+### 5. 설치 확인
 
 새로운 명령 프롬프트를 연 후,
 ```
@@ -92,27 +86,33 @@ b'Hello, TensorFlow!'
 >>>
 ```
 
-## 4. 에러 리스트
+### conda env 삭제 명령어
 
-### 4.1 설치 중 발생한 에러
+> conda remove -n (삭제할 conda env 이름) --all
 
-#### 에러메세지
+```
+C:> conda remove -n tensorflow --all
+```
+
+## 설치 중 발생한 에러
+
+### 에러메세지
 
 tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl is not a supported wheel on this platform.
 
-#### 해결방법
+### 해결방법
 
 ```
 (tensorflow)C:> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win\_amd64.whl
 ```
 
-#### 참고사이트
+### 참고사이트
 
 http://stackoverflow.com/questions/42266094/tensorflow-1-0-windows-64-bit-anaconda-4-3-0-error
 
-### 4.2 설치 확인 중 발생한 에러
+## 설치 확인 중 발생한 에러
 
-#### 에러메세지
+### 에러메세지
 
 ```
 (tensorflow) C:\>python
@@ -136,13 +136,13 @@ E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core
 b'hello!'
 ```
 
-#### 해결방법
+### 해결방법
 
 ```
 (tensorflow)C:> pip install --upgrade http://ci.tensorflow.org/view/Nightly/job/nightly-win/85/DEVICE=cpu,OS=windows/artifact/cmake\_build/tf\_python/dist/tensorflow-1.0.0rc2-cp35-cp35m-win\_amd64.whl
 ```
 
-### 4.3 설치 확인 중 발행한 warning
+## 설치 확인 중 발행한 warning
 
 ```
 C:> activate tensorflow
@@ -167,11 +167,3 @@ b'hello!'
 ```
 
 https://github.com/tensorflow/tensorflow/issues/7716
-
-## 5. conda env 삭제 명령어
-
-> conda remove -n (삭제할 conda env 이름) --all
-
-```
-C:> conda remove -n tensorflow --all
-```
