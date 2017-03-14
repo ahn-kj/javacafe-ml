@@ -94,7 +94,7 @@ b'Hello, TensorFlow!'
 C:> conda remove -n tensorflow --all
 ```
 
-## 설치 중 발생한 에러
+## 텐서플로우 설치 중 발생한 에러
 
 ### 에러메세지
 
@@ -110,7 +110,7 @@ tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl is not a supported wheel on this plat
 
 http://stackoverflow.com/questions/42266094/tensorflow-1-0-windows-64-bit-anaconda-4-3-0-error
 
-## 설치 확인 중 발생한 에러
+## 텐서플로우 설치 확인 중 발생한 에러
 
 ### 에러메세지
 
@@ -142,7 +142,7 @@ b'hello!'
 (tensorflow)C:> pip install --upgrade http://ci.tensorflow.org/view/Nightly/job/nightly-win/85/DEVICE=cpu,OS=windows/artifact/cmake\_build/tf\_python/dist/tensorflow-1.0.0rc2-cp35-cp35m-win\_amd64.whl
 ```
 
-## 설치 확인 중 발행한 warning
+## 텐서플로우 설치 확인 중 발행한 warning
 
 ```
 C:> activate tensorflow
