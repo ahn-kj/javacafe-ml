@@ -1,6 +1,7 @@
-# 실습환경 구성(윈도우)
+# 텐서플로우(TensorFlow) 설치
 
-## 1. 참고 사이트
+텐서플로우 사이트에서 제공하는 윈도우용 설치 가이드를 따라서 설치를 진행해보도록 하겠습니다. 윈도우 버전은 Windows 10 Pro 64bit입니다.
+
 https://www.tensorflow.org/install/install_windows
 
 ## 2. 설치 환경
