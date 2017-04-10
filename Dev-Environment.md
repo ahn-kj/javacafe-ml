@@ -131,9 +131,9 @@ virtualenv 환경을 삭제하려면, 우리가 만들었던 targetDirectory를 
 $ rm -r ~/tensorflow
 ```
 
-## 텐서플로우를 설치하면서 발생한 에러
+## 텐서플로우를 설치하면서 발생한 이슈
 
-### warning 메세지
+텐서플로우 1.0 버전 업 후에 발생하는 문제로, 프로그램은 실행되지만 아래와 같은 경고 메세지가 뜬다.
 
 ```
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
