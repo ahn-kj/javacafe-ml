@@ -16,6 +16,8 @@ Native pip는 가상 환경을 거치지 않고 시스템에 TensorFlow를 직�
 
 Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있습니다. 그러나 아나콘다에서는 cond install 명령 대신 pip install 명령을 사용하여 TensorFlow를 설치하는 것이 좋습니다. conda 패키지는 공식적으로 지원되지 않는 커뮤니티 지원이므로, TensorFlow 팀은 conda 패키지를 테스트하거나 유지 관리하지 않습니다.
 
+이 문서에서는 Anaconda를 이용하여 설치하도록 하겠습니다.
+
 ## Anaconda를 이용한 텐서플로우 설치
 
 ### 1. Anaconda 설치
