@@ -1,6 +1,6 @@
 # 텐서플로우(TensorFlow) 설치
 
-텐서플로우 사이트에서 제공하는 설치 가이드를 따라서 설치를 진행해보도록 하겠습니다. 윈도우 버전은 Windows 10 Pro 64bit입니다.
+텐서플로우 사이트에서 제공하는 설치 가이드를 따라서 설치를 진행해보도록 하겠습니다. 이 문서에서의 윈도우 버전은 Windows 10 Pro 64bit입니다.
 
 https://www.tensorflow.org/install/install_windows
 
@@ -14,7 +14,7 @@ TensorFlow에서 지원되는 설치 선택 사항은 **"native" pip, Anaconda**
 
 Native pip는 가상 환경을 거치지 않고 시스템에 TensorFlow를 직접 설치하기 때문에 시스템의 다른 Python 기반 설치에 영향을 줄 수 있습니다.
 
-Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있습니다. 그러나 아나콘다에서는 cond install 명령 대신 pip install 명령을 사용하여 TensorFlow를 설치하는 것이 좋습니다. conda 패키지는 공식적으로 지원되지 않는 커뮤니티 지원이므로 TensorFlow 팀은 conda 패키지를 테스트하거나 유지 관리하지 않습니다.
+Anaconda에서는 가상 환경을 만들기 위해 conda를 사용할 수 있습니다. 그러나 아나콘다에서는 cond install 명령 대신 pip install 명령을 사용하여 TensorFlow를 설치하는 것이 좋습니다. conda 패키지는 공식적으로 지원되지 않는 커뮤니티 지원이므로, TensorFlow 팀은 conda 패키지를 테스트하거나 유지 관리하지 않습니다.
 
 ## Anaconda를 이용한 텐서플로우 설치
 
